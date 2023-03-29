@@ -1,0 +1,361 @@
+#fondo-inicio {
+    background-image: url('imagenes/recital.png');
+    background-attachment:fixed; 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0px auto;
+    width:100vw; 
+    height:100vh; 
+}
+
+.index {
+
+    display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: flex-end;
+    width:80%;
+    max-width:1300px;
+    height:100vh; 
+    margin:0px auto; 
+    position:relative;
+}
+
+.menu {
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    width:20%; 
+    background-color: black; 
+    opacity:60%;
+    float:left;  
+    height:100vh;
+
+}
+
+.menu a {
+    color: white; 
+    text-decoration:none;
+    padding: 10% 10% 10% 0; 
+    font-size:100%; 
+}
+
+.menu a:hover {
+    background-color:grey;
+    
+}
+
+#colornaranja {
+    width:20vw; 
+    height:20vh; 
+    background-color:yellow; 
+}
+
+.contenido-principal {
+    width:68vw; 
+    float:left; 
+}
+
+.contenido-principal h1 {
+    color:rgb(251, 243, 243); 
+    font-size:  150%; 
+    text-align:right;
+    font-weight:bolder;
+}
+
+.contenido-principal h3 {
+    color:rgb(251, 243, 243); 
+    font-size: 100%; 
+    text-align:right;
+}
+
+#fotografias {
+    display:flex;
+    flex-direction: row;
+    align-items:right;
+    justify-content:right; 
+    flex-wrap: nowrap;
+     
+}
+
+#fotografias img {
+    width: 10vw; 
+    height:12vh; 
+    margin:2%; 
+    text-align:right; 
+   
+}
+
+#foto3 {
+    width:8vw; 
+    height:10vh; 
+  
+}
+
+#foto3 a {
+    text-decoration:none; 
+    margin:2%;
+}
+
+#fotografias a {
+    margin:2%;
+}
+
+
+#fotografias img:hover{
+    border:2px solid yellow;
+    width:10vw; 
+    height:10vh; 
+}
+
+#new-page {
+    background-image: url('imagenes/full-bg-03.jpg');
+    background-attachment:fixed;  
+    background-repeat:no-repeat;
+    background-size: cover;
+    display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: flex-end;
+    width:100vw;
+    max-width:1300px;
+    height:100vh;  
+    color:white; 
+    position:absolute;
+    display:none;
+}
+
+#new-page:target {
+    display:block; 
+    position:absolute;
+    z-index:100; 
+    animation: slideside 4s; 
+    animation-timing-function: 1;
+    animation-iteration-count: 1;
+    animation-direction: inherit;
+    animation-fill-mode: forwards;
+   }
+
+   @keyframes slideside { 
+    0% {opacity: 0%;} 
+   100% {opacity:100%;}
+   }
+
+#contenido-page-new {
+    width:68vw; 
+    float:left; 
+
+    
+}
+
+
+/* pagina nosotros */
+
+#fondo-nosotros {
+
+    background-image: url('imagenes/about-bg.jpg');
+    background-attachment:fixed;  
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+
+}
+
+.nosotros {
+    display:flex; 
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:right; 
+    align-items:center;
+    width:70vw; 
+    float:left; 
+    margin:0px auto; 
+}
+
+
+#iconos {
+    font-size:200%; 
+    width:6vw; 
+    padding:5%; 
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    margin-bottom:8%; 
+}
+
+#iconos a {
+    color:white; 
+    text-decoration: none; 
+    border:2px solid white; 
+    padding:8%; 
+    margin:10%;
+    border-radius:100%;
+    text-align:center; 
+}
+
+#iconos a:hover {
+    background-color: rgb(237, 237, 148);
+}
+
+#contenido-nosotros {
+background-color:white; 
+padding:2%; 
+margin-top: 10%; 
+color:gray; 
+}
+
+/* estilo galeria*/
+#fondo-galeria {
+
+    background-image: url('imagenes/gallery-bg.jpg');
+    background-attachment:fixed;  
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+
+}
+
+.galeria {
+    width:75vw; 
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    text-align:center; 
+    padding-top:10%; 
+    margin:0px auto; 
+}
+
+.galeria div {
+    width: 15vw;
+    margin:3%; 
+}
+
+.galeria div img {
+    width:100%; 
+    height:100%; 
+}
+
+#span {
+    background-color:white; 
+    padding:10%; 
+    font-size:100%; 
+}
+
+/* estilo contacto*/
+#fondo-contacto {
+
+    background-image: url('imagenes/contact-bg.jpg');
+    background-attachment:fixed;  
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+
+}
+
+.contacto {
+    width:50vw; 
+    display:flex; 
+    flex-direction:column;
+    margin:10%; 
+    flex-wrap: nowrap;
+    justify-content:right; 
+    align-items:right;
+    background-color:black;
+    opacity: 50%; 
+    float:left;
+}
+
+.formulario {
+    display:flex; 
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content:center; 
+    align-items:center;
+    padding:3%; 
+}
+
+.formulario h2 {
+    color:white; 
+}
+.formulario input { 
+    background-color:transparent;
+    border: solid 1px white; 
+    color:white;
+    margin:3%;  
+    padding:1%; 
+    width:90%; 
+}
+
+.formulario textarea { 
+    background-color:transparent;
+    border: solid 1px white; 
+    color:white;
+    margin:3%;  
+    padding:1%; 
+    width:90%; 
+}
+
+.formulario button {
+    color:black; 
+    padding:2%; 
+}
+
+@media screen and (max-width:700px) {
+
+    .galeria {
+        width:70vw; 
+        display:flex;
+        flex-direction:column; 
+        justify-content:rigth;
+        text-align:right;  
+        padding:5%; 
+        float:left;
+        flex-wrap:wrap; 
+
+    }
+
+    .galeria div {
+        width:25vw; 
+        margin:5%; 
+    }
+
+    .galeria div img {
+        width:30vw; 
+        height: 30vh;
+    }
+
+    .galeria div span {
+        text-align:center; 
+    }
+
+    .menu a {
+        font-size:60%; 
+    }
+
+    .nosotros {
+        display:flex; 
+        flex-direction:column;
+        flex-wrap: nowrap;
+        justify-content:right; 
+        align-items:center;
+        width:70vw; 
+        float:left; 
+    }
+
+    #iconos {
+        font-size:200%; 
+        width:6vw; 
+        padding:5%; 
+        display:flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        margin-bottom:8%; 
+    }
+
+    
+}
